@@ -1,0 +1,17 @@
+package MultilevelInheritance;
+
+public class Audi extends Car{
+	
+	String myCar = "Audi RS6";
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Audi obj1= new Audi();
+		obj1.NewVehicle();
+		System.out.println(obj1.myCar);
+		System.out.println(obj1.family);
+		System.out.println(obj1.carName);
+			}
+
+}
